@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ой, кажется, вы заблудились!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            background-image: url("img/404-background.png"); /* Замените на ваше изображение */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 10px;
+        }
+
+        .container1 {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin: 50px auto; /* Добавили отступы и центрирование */
+            max-width: 500px; /* Ограничили ширину блока */
+        }
+
+        h1 {
+            color: #333;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            }
+        header {
+        height: 30px;
+        margin-bottom: 15px;
+    }
+        header .container{
+            padding: 0;
+            width: 100%;;
+        }
+        .pull-left{
+            float: left!important;
+        }
+        .container{
+            width: 750px;
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        header .logo-name{
+            padding: 15px 0 15px 110px!important;
+            color: #130d35;
+            width: 100%;
+            padding: 6px 0 8px 65px;
+        }
+        header .h1 {
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: lighter;
+    display: block;
+    text-transform: uppercase;
+    margin: 0;
+}
+        .hidden-sm {
+        display: none !important;
+    }
+   h1 .h1 {
+    font-size: 46px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+header .h2 {
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="container pull-left">
+            <div class="logo pull-left">
+                <a href="/"><img src="img/logo.png" alt="Личный кабинет студента ПГТУ"></a>
+            </div>
+            <div class="logo-name">
+                <span class="h1 hidden-xs hidden-sm">личный кабинет студента</span>
+                <span class="h2 hidden-xs hidden-sm">ПОВОЛЖСКОГО ГОСУДАРСТВЕННОГО ТЕХНОЛОГИЧЕСКОГО УНИВЕРСИТЕТА</span>
+                <span class="h2 hidden-md hidden-lg">личный кабинет<br> студента ПГТУ</span>
+            </div>
+        </div>
+    </header>
+    <div class="container1">
+        <h1>404! Not Found!</h1>
+        <p>Страницы, которую вы ищете, не существует.</p>
+        <p>Попробуйте воспользоваться поиском или перейдите на главную страницу.</p>
+        <a href="https://lks.volgatech.net/Account/Login?ReturnUrl=%2f">Вернуться на главную</a>
+    </div>
+</body>
+</html>
